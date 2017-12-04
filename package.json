@@ -1,0 +1,21 @@
+{
+  "name": "versiontest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jpokrzyk/versiontest.git",
+  "author": "jpokrzyk <jpokrzyk@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "conventional-changelog": "^1.1.7",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
